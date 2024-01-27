@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cf"
+    android:layout_marginTop="-25dp"
+    android:layout_marginBottom="-20dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/bg_layout_white"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+
+        <TextView
+            android:id="@+id/tv_nama_penyakit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/mpoppins"
+            android:gravity="center"
+            android:text="@string/nama_penyakit"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/solusi"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mmedium"
+                android:text="Deskripsi"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/mpoppins"
+                android:text="APALAH"
+                android:paddingRight="10dp"
+                android:paddingLeft="5dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/grayPrimary"
+                android:textSize="25px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/solusi"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mmedium"
+                android:text="Solusi"
+                android:textSize="25dp"
+                android:textAlignment="center"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_solusi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/mpoppins"
+                android:text="APALAH"
+                android:paddingRight="10dp"
+                android:paddingLeft="5dp"
+                android:textSize="25px"
+                android:textAlignment="textStart"
+                android:textColor="@color/greenPrimary" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/diagnosaulang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_corner"
+            android:fontFamily="@font/mpoppins"
+            android:minHeight="48dp"
+            android:text="Diagnosa Ulang?"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/DarkRed" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

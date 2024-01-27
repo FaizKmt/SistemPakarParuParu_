@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/> <!-- Color of the background -->
+            <corners android:radius="5dp"/>   <!-- Adjust the radius as needed -->
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <solid android:color="@color/black"/> <!-- Color of the progress bar -->
+                <corners android:radius="5dp"/>   <!-- Adjust the radius as needed -->
+            </shape>
+        </clip>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/> <!-- Transparent color for the stroke -->
+            <stroke
+                android:width="5dp"
+                android:color="@color/black"/>
+            <corners android:radius="3dp"/>
+        </shape>
+    </item>
+</layer-list>

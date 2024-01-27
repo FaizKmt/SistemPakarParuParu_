@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="150dp" /> <!-- Atur radius sesuai keinginan untuk menentukan seberapa melengkung sudut -->
+    <solid android:color="#81001F" /> <!-- Warna latar belakang tombol -->
+</shape>
